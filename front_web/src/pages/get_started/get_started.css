@@ -1,0 +1,221 @@
+.background_main_page {
+    width: 100vw;
+    height: 100vh;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.back_glass {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(30px);
+    z-index: 1;
+    -webkit-box-shadow: 10px 0px 31px 10px rgba(0,0,0,0.39); 
+    box-shadow: 10px 0px 31px 10px rgba(0,0,0,0.39);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+.container_all {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.container_log_reg {
+    position: absolute;
+    right: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px;
+    margin-right: 50px;
+}
+
+li {
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+}
+
+a:hover {
+    transition: 0.5s;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.container_left_get {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+    width: 55%;
+    height: 100%;
+    z-index: 2;
+    padding: 30px 50px;
+}
+
+.head_left_get .title_main_page {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 80px;
+    animation: appear 1s ease-in-out forwards 1s;
+}
+
+.head_left_get .sub_title_main_page {
+    font-size: 100px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 60px;
+    line-height: 1;
+    animation: appear 1.5s ease-in-out forwards 1s;
+}
+
+.paragraphe_acroche {
+    width: 80%;
+}
+
+.paragraphe_acroche p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 20px;
+    animation: appear 2s ease-in-out forwards 1s;
+}
+
+.learn_more_button {
+    margin-top: 60px;
+    animation: appear 2.5s ease-in-out;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 185px;
+    padding: 10px 20px;
+    height: 55px;
+    transition: 0.5s;
+}
+
+.learn_more_button:hover {
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.get_started {
+    margin-top: 60px;
+    animation: appear 2.5s ease-in-out forwards 1s;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 220px;
+    padding: 10px 20px;
+    height: 55px;
+    transition: 0.5s;
+    background: #fff;
+}
+
+.get_started:hover {
+    transition: 0.5s;
+    background: none;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 220px;
+    padding: 10px 20px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.get_started:hover .get_started_a {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.get_started .get_started_a {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1;
+    transition: 0.5s;
+    color: #000;
+}
+
+.get_started .get_started_a span {
+    position: relative;
+    top: 5px;
+    left: 10px;
+}
+
+.learn_a {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.2;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.container_right_get {
+    position: absolute;
+    top: 55%;
+    right: 7%;
+    transform: translateY(-50%);
+    width: 500px;
+    height: 85%;
+    z-index: 2;
+    padding: 30px 50px;
+}
+
+.container_right_get img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    animation: appear 1s ease-in-out forwards 1s;
+}
+
+.flex_button_get_started {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    animation: appear 2s ease-in-out forwards 1s;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

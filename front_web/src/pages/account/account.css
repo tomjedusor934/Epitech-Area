@@ -1,0 +1,218 @@
+.accueil_content {
+    width: 90%;
+    height: 95%;
+    margin: 0 auto;
+}
+
+.accueil_content_head {
+    display: flex;
+}
+
+.accueil_content_head h1 {
+    font-size: 40px;
+}
+
+.account_content_banner {
+    width: 100%;
+    height: 900px;
+    border-radius: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.account_content_banner_top {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.account_content_banner_bottom {
+    width: 100%;
+    height: 35%;
+    border-radius: 50px;
+    background: url('../../media/sunrise.jpg');
+    background-size: cover;
+    background-position: 0% 0%;
+    padding: 50px 100px;
+}
+
+.account_content_banner_bottom h1 {
+    color: white;
+}
+
+.account_content_banner_bottom p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.account_content_banner_top_left {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+
+.account_content_banner_top_left img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 78% 22% 76% 24% / 19% 74% 26% 81%;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px 18px 35px 0px rgba(0, 0, 0, 0.123); 
+    box-shadow: 0px 18px 35px 0px rgba(0, 0, 0, 0.124);
+}
+
+.account_content_banner_top_left h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.account_content_banner_top_left ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.account_content_banner_top_left ul li {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    line-height: 1;
+    gap: 20px;
+    font-weight: 400;
+}
+
+.phone {
+    position: relative;
+    top: -3px;
+    left: 5px;
+}
+
+.account_content_banner_top_left ul li span {
+    height: 20px;
+    width: 20px;
+}
+
+.account_content_banner_top_left ul li p {
+    font-size: 20px;
+}
+
+.account_content_banner_top_middle {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    padding: 30px 35px;
+}
+
+.account_content_banner_top_middle .banner_middle_head {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: black;
+}
+
+.account_content_banner_top_middle .banner_middle_head h1 {
+    font-size: 30px;
+}
+
+.account_content_banner_top_middle .banner_middle_head a {
+    color: black;
+    transition: 0.5s;
+}
+
+.account_content_banner_top_middle .banner_middle_head a:hover {
+    color: blue;
+    transition: 0.5s;
+}
+
+
+.account_content_banner_top_right {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 40px 45px;
+}
+
+.account_content_banner_top_right button {
+    color: white;
+    transition: 0.5s;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 30px;
+    height: 60px;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.account_content_banner_top_right button:hover {
+    color: white;
+    transition: 0.5s;
+    background-color: rgb(0, 0, 175);
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 30px;
+    height: 60px;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.account_content_banner_top_right p {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.list_info_perso {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+}
+
+.list_info_perso li {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+}
+
+.list_info_perso li .grey {
+    color: rgb(206, 206, 206);
+}
+
+.list_info_perso h2 {
+    font-size: 20px;
+    font-weight: 500;
+}

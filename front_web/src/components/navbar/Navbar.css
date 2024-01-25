@@ -1,0 +1,107 @@
+.navbar {
+    position: absolute;
+    width: 330px;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar_container {
+    margin: 40px 35px 25px 35px;
+}
+
+.liste_global {
+    margin: 0;
+    color: black;
+    width: 100%;
+    flex-direction: column;
+}
+
+.item_lists {
+    width: 100%;
+}
+
+.name_list {
+    margin: 0;
+    padding: 0;
+    color: rgb(189, 163, 163);
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.name_list2 {
+    margin: 0;
+    padding: 0;
+    color: rgb(189, 163, 163);
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.final_list {
+    margin: 0px;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.item_lits_final {
+    display: flex;
+    gap: 30px;
+    line-height: 1.2;
+    color: black;
+    width: 100%;
+    padding: 20px 20px 10px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.item_lits_final:hover {
+    background-color: rgb(237, 237, 237);
+    transition: 0.5s;
+}
+
+.item_lits_final:hover > .icon_bi {
+    transition: 0.5s;
+    color: blue;
+}
+
+.selected {
+    background-color: rgb(237, 237, 237);
+}
+
+.item_lits_final h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.icon_bi {
+    color: rgb(180, 180, 180);
+    transition: 0.5s;
+}
+
+.selec_icon {
+    color: blue;
+    transition: 0.5s;
+}
+
+.container_notifs {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container_notifs h5 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 100%;
+    position: relative;
+    top: -20px;
+    left: -165px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+    vertical-align: center;
+}

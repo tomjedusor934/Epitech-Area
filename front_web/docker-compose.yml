@@ -1,0 +1,28 @@
+services:
+  react_app:
+      container_name: area_front
+      # image: area_front
+      build:
+       context: ./
+       dockerfile: Dockerfile
+      ports:
+        - "8100:3000"
+      volumes:
+        - './:/app'
+        - '/app/node_modules'
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.area_front.rule=Host(`area.tal-web.com`)"
+        - "traefik.http.routers.area_front.tls=true"
+        - "traefik.http.routers.area_front.tls.certresolver=lets-encrypt"
+      environment:
+        - CHOKIDAR_USEPOLLING=true
+      networks:
+        - webgateway
+        - personal-network
+
+networks:
+  webgateway:
+    external: true
+  personal-network:
+    external: true

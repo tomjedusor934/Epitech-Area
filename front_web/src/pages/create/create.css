@@ -1,0 +1,247 @@
+.create_content {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.create_content_banner {
+    padding: 50px 40px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.create_content_banner_head {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+.logo_info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 0px; 
+}
+
+.create_content_banner_title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.create_content_banner_body {
+    color: rgb(220, 193, 193);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;    
+}
+
+.create_content_banner_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 255);
+    gap: 30px;
+    border-radius: 50px;
+    padding: 30px 40px;
+    margin-top: 30px;
+}
+
+.create_content_banner_footer_left {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.create_content_banner_footer_left h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+    color: rgb(110, 110, 110);
+}
+
+.create_content_banner_footer_right {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_content_banner_footer_right img {
+    width: 70%;
+    height: 70%;
+    object-fit: contain;
+    border-radius: 78% 22% 76% 24% / 19% 74% 26% 81%;
+}
+
+.content_choose_temp {
+    display: flex;
+    margin-top: 80px;
+}
+
+.item_temp {
+    flex-grow: 1;
+    background-color: rgb(245, 245, 245);
+    border: 3px solid rgba(237, 237, 255, 0);
+    color: black;
+    width: 300px;
+    height: 350px;
+    border-radius: 50px;
+    padding: 20px 30px;
+    transition: 0.5s;
+    animation: shake 1s ease-in-out;
+}
+
+.item_temp:hover {
+    cursor: pointer;
+    background-color: rgb(237, 237, 255);
+    border: 3px solid rgb(207, 207, 255);
+    transition: 0.5s;
+}
+
+.item_temp h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.item_temp p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: rgb(100, 100, 100);
+    display: flex;
+}
+
+.icon_info {
+    margin-right: 10px;
+}
+
+.bottom_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.bottom_item_left {
+    width: 180px;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+}
+
+.bottom_item_right {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
+    color: rgb(100, 100, 100);
+}
+
+.icon_temp {
+    position: relative;
+    top: -40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -50px;
+}
+
+.discord {
+    object-fit: contain;
+    background-color: #5865F2;
+    color: white;
+}
+
+.twitter {
+    object-fit: contain;
+    background-color: #1DA1F2;
+    color: white;
+}
+
+.custom {
+    object-fit: contain;
+    background-color: #FFAD1F;
+    color: white;
+}
+
+.gmail {
+    object-fit: contain;
+    background-color: #e3ebb6;
+}
+
+.like {
+    transition: 0.5s;
+}
+
+.like:hover {
+    cursor: pointer;
+    color: rgb(0, 189, 0);
+    transition: 0.5s;
+}
+
+.disklike {
+    transition: 0.5s;
+}
+
+.disklike:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(4deg);
+    }
+
+    10% {
+        transform: rotate(-4deg);
+    }
+
+    20% {
+        transform: rotate(3deg);
+    }
+
+    30% {
+        transform: rotate(-3deg);
+    }
+
+    40% {
+        transform: rotate(2deg);
+    }
+
+    50% {
+        transform: rotate(-2deg);
+    }
+
+    60% {
+        transform: rotate(1deg);
+    }
+
+    70% {
+        transform: rotate(-1deg);
+    }
+
+    80% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}

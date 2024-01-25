@@ -1,0 +1,24 @@
+services:
+  area_backend:
+    container_name: area_backend
+    image: area_backend
+    ports:
+      - "2222:3333"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+      - /home/ubuntu/Area/Api/images:/usr/src/app/public/images
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.area_backend.rule=Host(`api.area.tal-web.com`)"
+      - "traefik.http.routers.area_backend.tls=true"
+      - "traefik.http.routers.area_backend.tls.certresolver=lets-encrypt"
+    networks:
+      - personal-network
+      - webgateway
+
+networks:
+  personal-network:
+    external: true
+  webgateway:
+    external: true
