@@ -11,6 +11,6 @@
     "multer": "^1.4.5-lts.1",
     "mysql": "^2.18.1",
     "request": "^2.88.2",
-    "unzipper": "^0.10.14"
+    "unzipper": "^0.12.1"
   }
 }
